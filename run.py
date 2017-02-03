@@ -8,5 +8,5 @@ def backup_cloud(config_list_path):
     else:
         print("process stoped because of backup error")
 
-# if __name__=="__main__":
-#     backup_cloud(config_list_path)
+if __name__=="__main__":
+    backup_cloud(config_list_path)

@@ -10,6 +10,7 @@ def backup(file_path):
         print(to_backup_dict)
         dict_keys=to_backup_dict.keys()
         for key in dict_keys:
+            cmd=""
             piece=to_backup_dict[key]
             piece_list=piece.split('/')
             if piece_list[-1]=="":

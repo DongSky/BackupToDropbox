@@ -10,8 +10,8 @@ if __name__=='__main__':
     if(result.operation=='backup_local'):
         backup.backup(result.config_list_path)
     elif(result.operation=='add_item'):
-        backup.add_item(result.config_list_path,result.file_path)
+        backup.add_item(result.config_list_path,result.path)
     elif(result.operation=='del_item'):
-        backup.del_item(result.config_list_path,result.file_path)
+        backup.del_item(result.config_list_path,result.path)
     elif(result.operation=='backup_cloud'):
         run.backup_cloud(result.config_list_path)
